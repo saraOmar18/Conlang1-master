@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:installLocation="preferExternal"
+    package="com.example.alhanoufaldawood.conlang">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Forget_password"
+            android:parentActivityName=".Customer.LoginCustomer" />
+        <activity
+            android:name=".Customer.TranslatorProfilePage"
+            android:parentActivityName=".Customer.CustomerHome" />
+        <activity
+            android:name=".Customer.SignUp"
+            android:parentActivityName=".Customer.LoginCustomer" />
+        <activity android:name=".Customer.CustomerHome" />
+        <activity
+            android:name=".Translator.TranslatorRegistrationRequest"
+            android:parentActivityName=".Translator.RequestRegistration2" />
+        <activity
+            android:name=".Translator.OfficeRegistrationRequest"
+            android:parentActivityName=".Translator.RequestRegistration2" />
+        <activity
+            android:name=".ReportIssue"
+            android:parentActivityName=".Customer.CustomerHome" />
+        <activity
+            android:name=".Translator.reportIssue"
+            android:parentActivityName=".Translator.TranslatorHome" />
+        <activity
+            android:name=".Translator.RequestRegistration"
+            android:parentActivityName=".Translator.LoginTranslator" />
+        <activity android:name=".Translator.TranslatorHome" />
+        <activity
+            android:name=".Customer.LoginCustomer"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Translator.LoginTranslator"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ReportIssueDialog" />
+        <activity
+            android:name=".Customer.RequestService"
+            android:parentActivityName=".Customer.RequestService" />
+        <activity
+            android:name=".Customer.PublicRequestService"
+            android:parentActivityName=".Customer.PublicRequestService" />
+
+        <activity android:name=".Customer.Profile" />
+        <activity android:name=".Customer.UpdateProfile" />
+        <activity
+            android:name=".Translator.RequestRegistration2"
+            android:parentActivityName=".Translator.RequestRegistration" />
+        <activity
+            android:name=".Customer.OfferDetail"
+            android:parentActivityName=".Customer.CustomerHome" />
+        <activity android:name=".Customer.ScanQR" />
+        <activity
+            android:name=".Translator.details"
+            android:parentActivityName=".Translator.TranslatorHome" />
+        <activity
+            android:name=".Translator.customDetails"
+            android:parentActivityName=".Translator.TranslatorHome" />
+        <activity
+            android:name=".Translator.pdf_viewer"
+            android:parentActivityName=".Translator.TranslatorHome" />
+        <activity
+            android:name=".Translator.custom_pdf_viewer"
+            android:parentActivityName=".Translator.TranslatorHome" />
+        <activity android:name=".Translator.sendOffer" />
+        <activity android:name=".Translator.sendCustomOffer" />
+        <activity android:name=".Translator.Custom_request_pdf_viewer" />
+        <activity android:name=".Customer.PayClass" />
+        <activity
+            android:name=".Customer.OrderDetails"
+            android:parentActivityName=".Customer.CustomerHome" />
+        <activity
+            android:name=".Customer.OrderDetailsPreviewFile"
+            android:parentActivityName=".Customer.CustomerHome" />
+        <activity
+            android:name=".Customer.OffersList"
+            android:parentActivityName=".Customer.CustomerHome" />
+        <activity
+            android:name=".Translator.TranslatorOrderDetails"
+            android:parentActivityName=".Translator.TranslatorHome" />
+
+        <activity android:name=".Chatting"
+            android:parentActivityName=".Chatting" />
+
+
+    </application>
+
+</manifest>

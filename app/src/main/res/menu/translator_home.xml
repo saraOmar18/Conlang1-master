@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id = "@+id/profile"
+        android:title="Profile"
+
+        />
+
+    <item
+        android:id = "@+id/reportIssue"
+        android:title="Report Issues"
+        />
+
+
+
+    <item
+        android:id="@+id/signout"
+        android:orderInCategory="100"
+        android:title="Log out"
+        android:icon="@android:drawable/ic_lock_power_off"
+        />
+
+
+</menu>

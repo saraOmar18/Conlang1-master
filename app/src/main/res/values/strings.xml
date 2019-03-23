@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Conlang</string>
+
+    <string name="open">Open</string>
+    <string name="search">Search</string>
+    <string name="close">Close</string>
+    <string name="medical">Medical</string>
+    <string name="textview">TextView</string>
+    <string name="english">English</string>
+    <string name="name_name">Name name</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="next">Next</string>
+
+    <string-array name="issues">
+        <item>System related</item>
+        <item>Service related</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="translator_issues">
+        <item>System related</item>
+        <item>Service related</item>
+        <item>other</item>
+    </string-array>
+
+
+    <string name="title_activity_translator_requests_fragment">Translator_requests_fragment</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="dialog_title"></string>
+
+
+    <string name="scanQr"><u><b><i>Scan QR in website</i></b></u></string>
+
+    <string name="upload"><u><b><i>Upload from files</i></b></u></string>
+    <string name="preview"><u><b><i>Preview file</i></b></u></string>
+    <string name="download"><u><b><i>Download file</i></b></u></string>
+
+
+    <string name="needAnAccount"><u><b><i>Need an account? Sign up</i></b></u></string>
+    <string name="requestAccess"><u><b><i>Need an account? Request access </i></b></u></string>
+
+    <string name="forgetPass"><u><b><i>Forget password?</i></b></u></string>
+    <string name="history">History</string>
+
+
+</resources>
